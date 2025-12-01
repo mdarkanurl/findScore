@@ -4,7 +4,7 @@
   "description": "An AI-powered analyzer that breaks down GitHub profiles and repos, uncovering contribution patterns, code quality signals, tech stack usage, and developer impact.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx app/app.ts"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,13 @@
   },
   "homepage": "https://github.com/mdarkanurl/findScore#readme",
   "devDependencies": {
+    "@types/express": "^5.0.5",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "better-auth": "^1.4.4",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
   }
 }
