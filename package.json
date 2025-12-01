@@ -1,0 +1,24 @@
+{
+  "name": "findscore",
+  "version": "1.0.0",
+  "description": "An AI-powered analyzer that breaks down GitHub profiles and repos, uncovering contribution patterns, code quality signals, tech stack usage, and developer impact.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdarkanurl/findScore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdarkanurl/findScore/issues"
+  },
+  "homepage": "https://github.com/mdarkanurl/findScore#readme",
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
