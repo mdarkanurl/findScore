@@ -2,9 +2,11 @@
   "name": "findscore",
   "version": "1.0.0",
   "description": "An AI-powered analyzer that breaks down GitHub profiles and repos, uncovering contribution patterns, code quality signals, tech stack usage, and developer impact.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "dev": "tsx app/app.ts"
+    "dev": "tsx app/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +28,6 @@
     "better-auth": "^1.4.4",
     "dotenv": "^17.2.3",
     "express": "^5.1.0"
-  }
+  },
+  "type": "module"
 }
