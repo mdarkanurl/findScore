@@ -4,9 +4,10 @@
   "description": "An AI-powered analyzer that breaks down GitHub profiles and repos, uncovering contribution patterns, code quality signals, tech stack usage, and developer impact.",
   "main": "app.js",
   "scripts": {
-    "dev": "tsx app/app.ts",
+    "dev:api": "tsx app/api/app.ts",
+    "dev:auth": "",
     "build": "tsc",
-    "start": "node dist/app.js"
+    "start:api": "node dist/api/app.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   "dependencies": {
     "better-auth": "^1.4.4",
     "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.0",
     "express": "^5.1.0"
   },
   "type": "module"
