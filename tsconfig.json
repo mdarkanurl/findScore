@@ -23,8 +23,6 @@
     "noUnusedParameters": false,      
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noUncheckedIndexedAccess": true,
 
     /* ✔ Module & Import Behavior */
     "esModuleInterop": true,
